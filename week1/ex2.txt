@@ -1,0 +1,41 @@
+    1  git config --global user.name "dappa"
+    2  git config --global user.name dappa
+    3  git config --global user.email dapp.anyway@gmail.com
+    4  git config --global core.autocrlf true
+    5  git config --global core.safecrlf warn
+    6  git config --global core.quotepath off
+    7  ls -la
+    8  cd ..
+    9  cd ~
+   10  git clone git@github.com:dapp-anyway/OS-course.git
+   11  cd OS-course
+   12  ssh-keygen -t rsa -b 4096 -C dapp.anyway@gmail.com
+   13  git clone git@github.com:dapp-anyway/OS-course.git
+   14  cd OS-course
+   15  mkdir ./week1
+   16  cd ./week1
+   17  cd /usr/bin
+   18  pwd
+   19  ls
+   20  ls gcc
+   21  grep gcc
+   22  ls
+   23  ls *gcc*
+   24  ls *gcc* -r
+   25  ls *gcc* -1
+   26  ls *gcc* -r
+   27  ls *gcc* -1 -r
+   28  ls *gcc* -1 -r > CS-source/week1/ex1.txt
+   29  cd CS-source
+   30  ls *gcc* -1 -r > CS-cource/week1/ex1.txt
+   31  cd CS-cource
+   32  ls *gcc* -1 -r > ~/CS-course/week1/ex1.txt
+   33  ls *gcc* -1 -r > ~/OS-course/week1/ex1.txt
+   34  cd ~
+   35  cd OS-course
+   36  cd week1
+   37  ls
+   38  gedit ex1.txt
+   39  pwd
+   40  pwd
+   41  history > ex2.txt

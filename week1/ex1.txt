@@ -1,0 +1,11 @@
+x86_64-pc-msys-gcc-ranlib.exe*
+x86_64-pc-msys-gcc-nm.exe*
+x86_64-pc-msys-gcc-ar.exe*
+x86_64-pc-msys-gcc-9.3.0.exe*
+x86_64-pc-msys-gcc.exe*
+msys-gccpp-1.dll*
+msys-gcc_s-seh-1.dll*
+gcc-ranlib.exe*
+gcc-nm.exe*
+gcc-ar.exe*
+gcc.exe*
