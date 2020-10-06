@@ -1,0 +1,4 @@
+A machine has 16-bit virtual addresses.
+Pages are 8 KB = 2^13 Bytes.
+We have 16-3 = 13 bits for entry number.
+Then number of pages = 2^3 = 8.

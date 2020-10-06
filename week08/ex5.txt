@@ -1,0 +1,2 @@
+Virtual memory has the ability to store more data.
+Virtual memory is stored on the hard disk and is used when the RAM is full, and beyond that, it is limited by the size of the hard disk as opposed to physical memory.
