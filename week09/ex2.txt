@@ -1,0 +1,7 @@
+The number of hits will increase if the sequence contains the minimum number of equivalent pages.
+And vice versa, to reduce the number of hits, we need minimum equivalent pages in the sequence.
+
+Results:
+10 page frames: Hit/Miss = 0.010204
+50 page frames: Hit/Miss = 0.055556
+100 page frames: Hit/Miss = 0.107011
