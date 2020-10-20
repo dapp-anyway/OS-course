@@ -1,0 +1,20 @@
+touch _ex3.txt
+
+Remove execute permission for everybody:
+chmod -x _ex3.txt
+ls -lah _ex3.txt
+-rw-r--r-- 1 dappa 197609 0 окт 20 19:45 _ex3.txt
+
+Grant all permissions to owner and others (not group):
+chmod 707 _ex3.txt
+ls -lah _ex3.txt
+-rw-r--r-- 1 dappa 197609 0 окт 20 19:45 _ex3.txt
+
+Make group permissions equal to user permissions:
+chmod g=u _ex3.txt
+ls -lah _ex3.txt
+-r--r--r-- 1 dappa 197609 0 окт 20 19:45 _ex3.txt
+
+660 - group and owner can read and write
+775 - group and owner can read, write and execute, also others can read and execute:
+777 - group, owner and others can read, write and execute

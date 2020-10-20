@@ -1,0 +1,1 @@
+file1 and link1 have the same i-node 16607023625938049.

@@ -1,0 +1,8 @@
+cd OS-course/week01
+touch file.txt
+cd ../week10
+link ../week01/file.txt _ex2.txt
+link ../week01/file.txt _ex2.txt
+find ../week10 -inum 6192449487678689
+find ../week10 -inum 6192449487678689 >> ../week01/file.txt
+find ../week10 -inum 6192449487678689 -exec rm {} \; >> ../week01/file.txt
