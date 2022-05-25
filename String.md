@@ -2,7 +2,7 @@
 
 ---
 #### String.slice() ####
-String.slice(first, last, []) will aplly slice method and return substring from **first-th** to **(last-1)-th** position
+`String.slice(first, last, [])` will aplly slice method and return substring from `first-th` to `(last-1)-th` position
 
 **Example:**
 ```
@@ -15,7 +15,7 @@ console.log(str.slice(31));
 
 
 #### String.fromCharCode() ####
-String.fromCharCode(num1, num2, ..., numN) returns a string created from the specified sequence of UTF-16 code units
+`String.fromCharCode(num1, num2, ..., numN)` returns a string created from the specified sequence of UTF-16 code units
 
 **Example:**
 ```
@@ -26,7 +26,7 @@ console.log(String.fromCharCode(189, 43, 190, 61));
 
 
 #### String.indexOf() ####
-String.indexOf(substring) takes a substring to search for, searches the entire calling string, and returns the index of **the first occurrence** of the specified **substring**
+`String.indexOf(substring)` takes a substring to search for, searches the entire calling string, and returns the index of `the first occurrence` of the specified **substring**
 
 **Example:**
 ```
@@ -42,7 +42,7 @@ console.log(`The index of the first "${searchTerm}" from the beginning is ${inde
 
 
 #### String.replace() ####
-String.replace(pattern, replacement) method returns a new string with some or all matches of a **pattern** replaced by a **replacement**
+`String.replace(pattern, replacement)` method returns a new string with some or all matches of a `pattern` replaced by a `replacement`
 
 **Example:**
 ```
@@ -55,7 +55,7 @@ console.log(p.replace('dog', 'monkey'));
 
 
 #### String.split() ####
-String.split(separator) method divides a String into an ordered list of substrings, puts these substrings into an array, and returns the array. The division is done by searching for a **separator**; where the pattern is provided as the first parameter in the method's call.
+`String.split(separator)` method divides a String into an ordered list of substrings, puts these substrings into an array, and returns the array. The division is done by searching for a `separator`; where the pattern is provided as the first parameter in the method's call.
 
 **Example:**
 ```
@@ -69,7 +69,7 @@ console.log(words[3]);
 
 
 #### String.toLowerCase() ####
-String.toLowerCase() method returns the calling string value converted **to lower case**
+`String.toLowerCase()` method returns the calling string value converted `to lower case`
 
 **Example:**
 ```
@@ -82,7 +82,7 @@ console.log(sentence.toLowerCase());
 
 
 #### String.toUpperCase() ####
-String.toUpperCase() method returns the calling string value converted to **uppercase** (the value will be converted to a string if it isn't one)
+`String.toUpperCase()` method returns the calling string value converted to `uppercase` (the value will be converted to a string if it isn't one)
 
 **Example:**
 ```
@@ -95,7 +95,7 @@ console.log(sentence.toUpperCase());
 
 
 #### String.substring() ####
-String.substring(indexStart, indexEnd) method returns the part of the string between the **start** and end **indexes**, or to the end of the string
+`String.substring(indexStart, indexEnd)` method returns the part of the string between the `start` and end `indexes`, or to the end of the string
 
 **Example:**
 ```
@@ -108,7 +108,7 @@ console.log(str.substring(1, 3));
 
 
 #### String.charAt() ####
-String.charAt(index) method returns a new string consisting of the single UTF-16 code unit located at the specified **index** into the string
+`String.charAt(index)` method returns a new string consisting of the single UTF-16 code unit located at the specified `index` into the string
 
 **Example:**
 ```
@@ -120,7 +120,7 @@ console.log(`The character at index ${index} is ${sentence.charAt(index)}`);
 ```
 ---
 #### String.charCodeAt() ####
-String.charCodeAt(index) method returns an integer between 0 and 65535 representing the UTF-16 code unit at the given **index**
+`String.charCodeAt(index)` method returns an integer between 0 and 65535 representing the UTF-16 code unit at the given `index`
 
 **Example:**
 ```
@@ -134,7 +134,7 @@ console.log(`The character code ${sentence.charCodeAt(index)} is equal to ${sent
 
 
 #### String.concat() ####
-String.concat(str1, str2, ... , strN) method concatenates the **string** arguments to the calling string and returns a new string
+`String.concat(str1, str2, ... , strN)` method concatenates the `string` arguments to the calling string and returns a new string
 
 **Example:**
 ```
