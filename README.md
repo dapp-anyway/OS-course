@@ -11,7 +11,7 @@ console.log(str.slice(31));
 # String.fromCharCode() #
 String.fromCharCode(num1, num2, ..., numN) returns a string created from the specified sequence of UTF-16 code units
 
-`Example:`
+### Example: ###
 ```
 console.log(String.fromCharCode(189, 43, 190, 61));
 // expected output: "½+¾="
