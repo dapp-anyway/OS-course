@@ -3,6 +3,7 @@ String.slice(first, last, []) will aplly slice method and return substring from 
 ### Example: ###
 ```
 const str = 'The quick brown fox jumps over the lazy dog.';
+
 console.log(str.slice(31));
 // expected output: "the lazy dog."
 ```
@@ -21,8 +22,10 @@ String.indexOf(searchTerm) takes a substring to search for, searches the entire 
 ### Example: ###
 ```
 const paragraph = 'The quick brown fox jumps over the lazy dog. If the dog barked, was it really lazy?';
+
 const searchTerm = 'dog';
 const indexOfFirst = paragraph.indexOf(searchTerm);
+
 console.log(`The index of the first "${searchTerm}" from the beginning is ${indexOfFirst}`);
 // expected output: "The index of the first "dog" from the beginning is 40"
 ```
@@ -32,6 +35,7 @@ String.replace(regexp, newSubstr) method returns a new string with some or all m
 ### Example: ###
 ```
 const p = 'The quick brown fox jumps over the lazy dog. If the dog reacted, was it really lazy?';
+
 console.log(p.replace('dog', 'monkey'));
 // expected output: "The quick brown fox jumps over the lazy monkey. If the dog reacted, was it really lazy?"
 
@@ -45,8 +49,8 @@ String.split(separator) method divides a String into an ordered list of substrin
 ### Example: ###
 ```
 const str = 'The quick brown fox jumps over the lazy dog.';
-
 const words = str.split(' ');
+
 console.log(words[3]);
 // expected output: "fox"
 ```
@@ -86,7 +90,6 @@ String.charAt(index) method returns a new string consisting of the single UTF-16
 ### Example: ###
 ```
 const sentence = 'The quick brown fox jumps over the lazy dog.';
-
 const index = 4;
 
 console.log(`The character at index ${index} is ${sentence.charAt(index)}`);
@@ -98,7 +101,6 @@ String.charCodeAt(index) method returns an integer between 0 and 65535 represent
 ### Example: ###
 ```
 const sentence = 'The quick brown fox jumps over the lazy dog.';
-
 const index = 4;
 
 console.log(`The character code ${sentence.charCodeAt(index)} is equal to ${sentence.charAt(index)}`);
