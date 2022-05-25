@@ -8,7 +8,6 @@ console.log(str.slice(31));
 // expected output: "the lazy dog."
 ```
 
-
 # String.fromCharCode() #
 String.fromCharCode(num1, num2, ..., numN) returns a string created from the specified sequence of UTF-16 code units
 
