@@ -1,3 +1,5 @@
+# Funstions #
+
 ## String.slice() ##
 String.slice(first, last, []) will aplly slice method and return substring from **first-th** to **(last-1)-th** position
 ### Example: ###
