@@ -1,5 +1,5 @@
 # String.slice() #
-String.slice(first, last, []) will aplly slice method and return substring from **first-th** to (last-1)-th position
+String.slice(first, last, []) will aplly slice method and return substring from **first-th** to **(last-1)-th** position
 ### Example: ###
 ```
 const str = 'The quick brown fox jumps over the lazy dog.';
@@ -18,7 +18,7 @@ console.log(String.fromCharCode(189, 43, 190, 61));
 ```
 
 # String.indexOf() #
-String.indexOf(searchTerm) takes a substring to search for, searches the entire calling string, and returns the index of the first occurrence of the specified substring
+String.indexOf(searchTerm) takes a substring to search for, searches the entire calling string, and returns the index of **the first occurrence** of the specified substring
 ### Example: ###
 ```
 const paragraph = 'The quick brown fox jumps over the lazy dog. If the dog barked, was it really lazy?';
